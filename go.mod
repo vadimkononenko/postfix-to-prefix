@@ -1,5 +1,5 @@
 // TODO: Rename to your own module.
-module github.com/roman-mazur/architecture-lab-2
+module github.com/vadimkononenko/postfix-to-prefix
 
 go 1.17
 
