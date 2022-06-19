@@ -9,7 +9,7 @@ import (
 func TestFirst(t *testing.T) {
 	res, err := PostfixToPrefix("1 2 + 3 4 + *")
 	if assert.Nil(t, err) {
-		assert.Equal(t, "*+12+3", res)
+		assert.Equal(t, "*+12+34", res)
 	}
 }
 
